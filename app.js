@@ -31,3 +31,15 @@
 *   }
 * ];
 */
+// DOM elements
+const inputs = document.getElementsByTagName('input');
+const submit = document.getElementById('submitButton');
+const reset = document.getElementById('resetButton');
+const results = document.getElementById('result');
+const questions = document.querySelectorAll('div.question');
+
+// Variables
+const correctAnswer = ['c','a','b','a','c'];
+const emojis = ['✔️','✨','👀','😭','👎'];
+let userAnswer = [];
+let goodAnswer = 0;
