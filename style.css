@@ -10,3 +10,26 @@ body {
   background: rgb(255, 237, 245);
   background: radial-gradient(circle, rgb(255, 234, 117) 0%, rgb(255, 168, 68) 100%);
 }
+
+h1 {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Russo one', Arial, sans-serif;
+  text-decoration: underline;
+  border: 2px dashed rgba(31, 30, 30, 0.883);;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 600px;
+  color: rgba(31, 30, 30, 0.883);
+}
+
+.container {
+  margin: 50px auto;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
