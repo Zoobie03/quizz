@@ -123,3 +123,17 @@ const resetQuizz = () => {
   // reset the result sentence
   results.textContent = "";
 }
+
+submit.addEventListener('click', () => {
+  radioCheckedHandler(userAnswer);
+  checkAnswer();
+  resultDisplay();
+  waitReset();
+  console.log(submit);
+});
+
+reset.addEventListener('click', () => {
+  resetQuizz();
+  reset.classList.remove('restart-animation');
+  submit.style.pointerEvents = "auto";
+});
