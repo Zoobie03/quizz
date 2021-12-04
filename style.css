@@ -49,3 +49,15 @@ h1 {
   text-decoration: underline;
   font-weight: 700;
 }
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.result {
+  margin: auto;
+  text-align: center;
+  font-family: 'Russo one', Arial, sans-serif;
+  font-size: 22px;
+}
