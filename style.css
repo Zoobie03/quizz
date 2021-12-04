@@ -61,3 +61,22 @@ label {
   font-family: 'Russo one', Arial, sans-serif;
   font-size: 22px;
 }
+.button-container {
+  text-align: center;
+  margin: 30px auto;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  color: rgb(78, 68, 68);
+}
+
+button:hover {
+  transition: .5;
+  background-color: rgba(31, 30, 30, 0.883);
+  color: white;
+  cursor: pointer;
+}
